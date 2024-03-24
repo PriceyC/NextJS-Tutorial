@@ -6,7 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/dashboard/page"],{
+self["webpackHotUpdate_N_E"]("app/dashboard/page",{
 
 /***/ "(app-pages-browser)/./node_modules/next/dist/build/polyfills/process.js":
 /*!***********************************************************!*\
@@ -222,11 +222,4 @@ eval(__webpack_require__.ts("var __dirname = \"/\";\n/* provided dependency */ v
 
 /***/ })
 
-},
-/******/ function(__webpack_require__) { // webpackRuntimeModules
-/******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ __webpack_require__.O(0, ["main-app"], function() { return __webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fcameronprice%2FDocuments%2Fpersonal%2FNextJS-Tutorial%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&server=false!"); });
-/******/ var __webpack_exports__ = __webpack_require__.O();
-/******/ _N_E = __webpack_exports__;
-/******/ }
-]);
+});
